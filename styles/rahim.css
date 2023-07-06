@@ -1,38 +1,75 @@
-
 *{
-    margin: 20px;
+    margin: 0px;
+    padding: 0px;
 }
-.firstvlog{
-    border: 10px solid blue;
-    border-radius: 20px;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    text-decoration: underline;
-    background-color: aqua;
-}
-.secondvlog{
-    border: 10px solid blue;
-    border-radius: 20px;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    text-decoration: underline;
-    background-color: aqua;
-}
-.thirdvlog{
-    border: 10px solid blue;
-    border-radius: 20px;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    background-color: aqua;
-    text-decoration: underline;
-}
-p{
-    color: red;
-    text-align: center;
-    border: 10px solid black;
-    border-radius: 20px;
+
+.menu-conatiner{
+    display: flex;
+    justify-content:space-between;
+    background-color: #424141;
     padding: 8px;
+    display: flex;
+    align-items: center;
+
+}
+
+.allitems{
+    list-style: none;
+    display: flex;
+}
+.list-items:hover{
+    background-color: blue;
+}
+
+
+.nameoflogo{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.list-items{
+    margin-right: 10px;
+    font-size:xx-small;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.banner-container{
+    padding: 10px;
+    max-height:350px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color:white(252, 252, 252, 0.568);
+}
+
+.alltext{
+    width: 200px;
+  
+}
+.webdesign{
+    font-weight: bold;
+    color:darkblue;
+}
+.undertext{
+    color:darkred
+}
+.caption{
+    width: 180px;
+    font-size: x-small;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.btn{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: x-small;
+    font-weight: bolder;
+
 }
